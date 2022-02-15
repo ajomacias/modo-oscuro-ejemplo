@@ -1,0 +1,112 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 247, 247);
+    font-family: monospace;
+    
+}
+/*Barra de navegacion*/
+.nav{
+    margin: 0;
+    background-color: rgb(238, 242, 242);
+    height: 55px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    box-shadow: 3px 0 3px 0 black ;
+}
+.nav ul li a{
+    display: inline-block;
+    width: fit-content;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 140px;
+}
+nav ul{
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+}
+.ipt-buscar{
+    margin: 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+.ipt-buscar button img{
+    width: 13px;
+    height: 10px;
+}
+.ipt-buscar button{
+    width: min-content;
+    box-shadow : 1px 1px 3px black;
+    cursor: pointer;
+
+}
+
+.ipt-buscar input{
+    color: grey;
+    width: 300px;
+    font-family: monospace;
+    box-shadow : 1px 1px 3px black;
+    border: none;
+    border-radius: 2px;
+    height: 21px;
+    transition:200ms  ;
+}
+
+.ipt-buscar input:focus{
+    box-shadow: none;
+    outline: none;
+    border: thin solid grey;
+}
+.ipt-buscar button:active{
+    box-shadow: none;
+
+}
+
+#display{
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+/*-----------------------------*/
+/*Targeta presentacion*/
+.targeta-presentacion{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 600px;
+    box-shadow: 0 0 1px  black;
+    background-color: white;
+}
+
+
+/*-----------------------------*/
+
+/*footer*/
+
+.footer{
+    background-color: rgb(238, 242, 242);
+    height: 70px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    box-shadow: 3px 0 3px 0 black ;
+    margin-top: 8%;
+    text-align: center;
+}

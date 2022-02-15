@@ -1,0 +1,62 @@
+/*DARK*/
+.body-dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(64, 67, 67);
+    font-family: monospace;
+    
+}
+
+/*Barra de navegacion dark*/
+.nav-dark{
+    margin: 0;
+    background-color: rgb(46, 46, 46);
+    height: 55px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    box-shadow: 3px 0 3px 0 rgb(255, 255, 255) ;
+}
+.nav-dark ul li a{
+    display: inline-block;
+    width: fit-content;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.nav-dark ul li{
+    display: inline-block;
+    margin-right: 140px;
+}
+.nav-dark ul{
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+}
+
+/*Targeta presentacion dark*/
+.targeta-presentacion-dark{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 600px;
+    box-shadow: 0 0 1px  rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+}
+
+
+/*-----------------------------*/
+
+/*footer-dark*/
+
+.footer-dark{
+    color: white;
+    background-color: rgb(46, 46, 46);
+    height: 70px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    box-shadow: 3px 0 3px 0 rgb(255, 255, 255) ;
+    margin-top: 8%;
+    text-align: center;
+}
